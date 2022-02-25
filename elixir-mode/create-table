@@ -3,6 +3,7 @@
 # uuid: ct-sab
 # key: ct
 # condition: t
+# group: migrations
 # --
 create table(:${1:table}${2:, primary_key: false}) do
   $0

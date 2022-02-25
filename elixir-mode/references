@@ -3,5 +3,6 @@
 # uuid: ref-asb
 # key: ref
 # condition: t
+# group: migrations
 # --
 references(:${1:table}, column: :${2:column}${3:, type: :uuid})

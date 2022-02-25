@@ -3,5 +3,6 @@
 # uuid: add-sab
 # key: add
 # condition: t
+# group: migrations
 # --
 add :${1:column}, :${2:$$(yas-choose-value (column-types))}

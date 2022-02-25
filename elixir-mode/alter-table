@@ -3,6 +3,7 @@
 # uuid: at-sab
 # key: at
 # condition: t
+# group: migrations
 # --
 alter table(:${1:table}) do
   $0

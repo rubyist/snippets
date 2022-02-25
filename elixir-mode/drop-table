@@ -3,5 +3,6 @@
 # uuid: dt-sab
 # key: dt
 # condition: t
+# group: migrations
 # --
 drop table(:${1:table})

@@ -3,5 +3,6 @@
 # uuid: rem-sab
 # key: rem
 # condition: t
+# group: migrations
 # --
 remove(:${1:column}, :${2:$$(yas-choose-value (column-types))})
