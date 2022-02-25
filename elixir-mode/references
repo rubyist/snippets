@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: refernces
+# uuid: ref-asb
+# key: ref
+# condition: t
+# --
+references(:${1:table}, column: :${2:column}${3:, type: :uuid})

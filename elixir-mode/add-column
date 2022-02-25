@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: add-column
+# uuid: add-sab
+# key: add
+# condition: t
+# --
+add :${1:column}, :${2:$$(yas-choose-value (column-types))}

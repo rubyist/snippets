@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: drop-table
+# uuid: dt-sab
+# key: dt
+# condition: t
+# --
+drop table(:${1:table})

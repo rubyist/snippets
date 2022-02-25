@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: create-table
+# uuid: ct-sab
+# key: ct
+# condition: t
+# --
+create table(:${1:table}${2:, primary_key: false}) do
+  $0
+end
