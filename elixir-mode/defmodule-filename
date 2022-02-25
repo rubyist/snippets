@@ -4,6 +4,6 @@
 # uuid: dm-sab
 # condition: t
 # --
-defmodule ${1:`(concat (capitalize (file-name-nondirectory (directory-file-name (file-name-directory (directory-file-name (file-name-directory buffer-file-name)))))) ".")`}${2:`(concat (capitalize (file-name-nondirectory (directory-file-name (file-name-directory buffer-file-name)))) ".")`}${3:`(mapconcat 'capitalize (split-string (file-name-base) "_") "")`} do
+defmodule ${1:`(concat (modularize (module-2 buffer-file-name)) ".")`}${2:`(concat (modularize (module-1 buffer-file-name)) ".")`}${3:`(modularize (file-name-base))`} do
   $0
 end
