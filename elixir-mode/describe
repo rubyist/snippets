@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: describe
+# uuid: desc-sab
+# key: desc
+# condition: t
+# --
+describe "$1" do
+  $0
+end
