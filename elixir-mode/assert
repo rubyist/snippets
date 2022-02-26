@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: assert
+# uuid: assert-sab
+# key: assert
+# condition: t
+# --
+assert ${1:value}${2:, "${3:message}"}

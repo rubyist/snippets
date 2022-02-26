@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: refute
+# uuid: refute-sab
+# key: refute
+# condition: t
+# --
+refute ${1:value}${2:, "${3:message}"}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: assert-match
+# uuid: am-sab
+# key: am
+# condition: t
+# --
+assert match?({${1::ok}, ${2:_}}, ${3:x})${4:, "expected $3 to match {$1, $2\}"}
