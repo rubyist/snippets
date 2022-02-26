@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: inspect
+# uuid: i-sab
+# key: i
+# condition: t
+# --
+inspect($0)

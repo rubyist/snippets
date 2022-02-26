@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ok
+# uuid: ok-sab
+# key: ok
+# condition: t
+# --
+{:ok, ${1:_}} = $0

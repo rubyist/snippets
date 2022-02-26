@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: map-struct
+# uuid: %-sab
+# key: %
+# condition: t
+# --
+%${1:Struct}{$2}$0

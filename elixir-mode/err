@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: err
+# uuid: err-sab
+# key: err
+# condition: t
+# --
+{:error, ${1:_}} = $0

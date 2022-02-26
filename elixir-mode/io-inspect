@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: io-inspect
+# uuid: ii-sab
+# key: ii
+# condition: t
+# --
+IO.inspect($0)
