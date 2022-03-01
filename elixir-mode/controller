@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: controller
+# uuid: ctrl-sab
+# key: ctrl
+# condition: t
+# --
+defmodule ${1:`(modularize (module-2 buffer-file-name))`}.${2:`(modularize (file-name-base))`} do
+  use $1, :controller
+
+  $0
+end
