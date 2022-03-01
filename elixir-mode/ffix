@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: ffix
+# uuid: ffix-sab
+# key: ffix
+# condition: t
+# --
+def ${1:model}_fields(overrides \\ []) do
+  Enum.into(
+    overrides,
+    %{
+      $2
+    }
+  )
+end
+
+def build_$1(overrides \\ []) do
+  {:ok, $1} =
+    overrides
+    |> $1_fields
+    |> ${3:Model.create_function}()
+
+  $1
+end
+
+def setup_$1(${4:%{$5\} = }context) do
+  {:ok, Map.put(context, :$1, build_$1($6))}
+end
+$0

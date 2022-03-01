@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: fixtures
+# uuid: fix-sab
+# key: fix
+# condition: t
+# --
+defmodule ${1:${2:Module}.}${3:`(modularize (file-name-base))`} do
+  defmacro __using__(_options) do
+    quote do
+      import $1$3, only: :functions
+    end
+  end
+
+  $0
+end
