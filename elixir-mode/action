@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: action
+# uuid: act-sab
+# key: act
+# condition: t
+# --
+def ${1:index}(conn, ${2:_params}) do
+  $0
+end
